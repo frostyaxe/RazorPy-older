@@ -1,0 +1,9 @@
+jobs:
+    - cowsay:
+        set_character: "tux"
+        text: "Hello Abhishek Prajapati"
+    - cowsay:
+        set_character: "dragon"
+        text: "Hello Abhishek Prajapati"
+    - teamcity:
+        generate_release_notes: "True"
